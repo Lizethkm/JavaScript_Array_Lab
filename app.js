@@ -204,6 +204,12 @@ console.log("Dishes made of Tomato and Cheese", tomatoAndCheeseDishes);
 
 //6a. Create a function that will return an array of only the names of the cuisine types. Ie ['Italian', 'Mexican', ...]
 //Map
+
+let dishesName= dishes.map(function(el){
+    return el.cuisine
+})
+
+console.log('Cuisine Types', dishesName)
 // BONUS: (come back to this after finishing all)
 //6b. Use the filter method to eliminate duplicates, leaving only distinct values in the array
 
